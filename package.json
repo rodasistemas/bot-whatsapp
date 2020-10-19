@@ -1,0 +1,32 @@
+{
+  "name": "bot-whatsapp",
+  "version": "1.0.0",
+  "description": "Bot para uso do Whatsapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js",
+    "dev": "npm-run-all -p dev:*",
+    "dev:start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodasistemas/bot-whatsapp.git"
+  },
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "nodejs"
+  ],
+  "author": "Rodrigo Daniel Andrade",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/rodasistemas/bot-whatsapp/issues"
+  },
+  "homepage": "https://github.com/rodasistemas/bot-whatsapp#readme",
+  "dependencies": {
+    "nodemon": "^2.0.6",
+    "sulla": "^2.3.14",
+    "venom-bot": "^2.0.15"
+  }
+}
